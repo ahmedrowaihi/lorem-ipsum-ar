@@ -1,0 +1,137 @@
+{
+  "name": "lorem-ipsum-ar",
+  "displayName": "lorem-ipsum-ar",
+  "description": "A small lorem-ipsum alike VSC extension that uses '@ahmedrowaihi/faker-ar' fork package under the hood, with few commands that generate and insert arabic lorem ipsum alike text.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmedrowaihi/lorem-ipsum-ar.git"
+  },
+  "author": "Ahmed Rowaihi",
+  "publisher": "sudoahmed",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:lorem-ipsum-ar.word",
+    "onCommand:lorem-ipsum-ar.words",
+    "onCommand:lorem-ipsum-ar.slug",
+    "onCommand:lorem-ipsum-ar.sentence",
+    "onCommand:lorem-ipsum-ar.sentences",
+    "onCommand:lorem-ipsum-ar.paragraph",
+    "onCommand:lorem-ipsum-ar.paragraphs",
+    "onCommand:lorem-ipsum-ar.lines",
+    "onCommand:lorem-ipsum-ar.firstName",
+    "onCommand:lorem-ipsum-ar.lastName",
+    "onCommand:lorem-ipsum-ar.middleName",
+    "onCommand:lorem-ipsum-ar.fullName",
+    "onCommand:lorem-ipsum-ar.jobTitle",
+    "onCommand:lorem-ipsum-ar.jobArea",
+    "onCommand:lorem-ipsum-ar.jobDescriptor"
+  ],
+  "main": "./dist/extension.js",
+  "files": [
+    "dist",
+    "node_modules",
+    "package.json",
+    "README.md"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "lorem-ipsum-ar.word",
+        "title": "Insert a random arabic word"
+      },
+      {
+        "command": "lorem-ipsum-ar.words",
+        "title": "Insert a random arabic words"
+      },
+      {
+        "command": "lorem-ipsum-ar.slug",
+        "title": "Insert a random arabic slug"
+      },
+      {
+        "command": "lorem-ipsum-ar.sentence",
+        "title": "Insert a random arabic sentence"
+      },
+      {
+        "command": "lorem-ipsum-ar.sentences",
+        "title": "Insert a random arabic sentences"
+      },
+      {
+        "command": "lorem-ipsum-ar.paragraph",
+        "title": "Insert a random arabic paragraph"
+      },
+      {
+        "command": "lorem-ipsum-ar.paragraphs",
+        "title": "Insert a random arabic paragraphs"
+      },
+      {
+        "command": "lorem-ipsum-ar.lines",
+        "title": "Insert a random arabic lines"
+      },
+      {
+        "command": "lorem-ipsum-ar.firstName",
+        "title": "Insert a random arabic first name"
+      },
+      {
+        "command": "lorem-ipsum-ar.lastName",
+        "title": "Insert a random arabic last name"
+      },
+      {
+        "command": "lorem-ipsum-ar.middleName",
+        "title": "Insert a random arabic middle name"
+      },
+      {
+        "command": "lorem-ipsum-ar.fullName",
+        "title": "Insert a random arabic full name"
+      },
+      {
+        "command": "lorem-ipsum-ar.jobTitle",
+        "title": "Insert a random arabic job title"
+      },
+      {
+        "command": "lorem-ipsum-ar.jobArea",
+        "title": "Insert a random arabic job area"
+      },
+      {
+        "command": "lorem-ipsum-ar.jobDescriptor",
+        "title": "Insert a random arabic job descriptor"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run package",
+    "compile": "webpack",
+    "watch": "webpack --watch",
+    "package": "webpack --mode production --devtool hidden-source-map",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "yarn run compile-tests && yarn run compile && yarn run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^8.0.1",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.72.0",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "@vscode/test-electron": "^2.2.2",
+    "eslint": "^8.33.0",
+    "glob": "^8.1.0",
+    "mocha": "^10.1.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.4",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "@ahmedrowaihi/faker-ar": "^8.0.0-alpha.0"
+  }
+}
