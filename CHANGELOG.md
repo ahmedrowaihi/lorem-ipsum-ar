@@ -4,12 +4,4 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 0.0.2 (2023-02-09)
 
-<!-- # Change Log
-
-All notable changes to the "lorem-ipsum-ar" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release -->
+- minified command line interface to start with `lorem`
