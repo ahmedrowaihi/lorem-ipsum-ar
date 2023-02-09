@@ -44,63 +44,63 @@
     "commands": [
       {
         "command": "lorem-ipsum-ar.word",
-        "title": "Insert a random arabic word"
+        "title": "lorem arabic word"
       },
       {
         "command": "lorem-ipsum-ar.words",
-        "title": "Insert a random arabic words"
+        "title": "lorem arabic words"
       },
       {
         "command": "lorem-ipsum-ar.slug",
-        "title": "Insert a random arabic slug"
+        "title": "lorem arabic slug"
       },
       {
         "command": "lorem-ipsum-ar.sentence",
-        "title": "Insert a random arabic sentence"
+        "title": "lorem arabic sentence"
       },
       {
         "command": "lorem-ipsum-ar.sentences",
-        "title": "Insert a random arabic sentences"
+        "title": "lorem arabic sentences"
       },
       {
         "command": "lorem-ipsum-ar.paragraph",
-        "title": "Insert a random arabic paragraph"
+        "title": "lorem arabic paragraph"
       },
       {
         "command": "lorem-ipsum-ar.paragraphs",
-        "title": "Insert a random arabic paragraphs"
+        "title": "lorem arabic paragraphs"
       },
       {
         "command": "lorem-ipsum-ar.lines",
-        "title": "Insert a random arabic lines"
+        "title": "lorem arabic lines"
       },
       {
         "command": "lorem-ipsum-ar.firstName",
-        "title": "Insert a random arabic first name"
+        "title": "lorem arabic first name"
       },
       {
         "command": "lorem-ipsum-ar.lastName",
-        "title": "Insert a random arabic last name"
+        "title": "lorem arabic last name"
       },
       {
         "command": "lorem-ipsum-ar.middleName",
-        "title": "Insert a random arabic middle name"
+        "title": "lorem arabic middle name"
       },
       {
         "command": "lorem-ipsum-ar.fullName",
-        "title": "Insert a random arabic full name"
+        "title": "lorem arabic full name"
       },
       {
         "command": "lorem-ipsum-ar.jobTitle",
-        "title": "Insert a random arabic job title"
+        "title": "lorem arabic job title"
       },
       {
         "command": "lorem-ipsum-ar.jobArea",
-        "title": "Insert a random arabic job area"
+        "title": "lorem arabic job area"
       },
       {
         "command": "lorem-ipsum-ar.jobDescriptor",
-        "title": "Insert a random arabic job descriptor"
+        "title": "lorem arabic job descriptor"
       }
     ]
   },
